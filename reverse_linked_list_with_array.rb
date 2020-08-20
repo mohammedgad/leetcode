@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ReverseLinkedListIterative
+class ReverseLinkedListWithArray
   # Definition for singly-linked list.
   # class ListNode
   #     attr_accessor :val, :next
@@ -12,19 +12,18 @@ class ReverseLinkedListIterative
   # @param {ListNode} head
   # @return {ListNode}
   def reverse_list(head)
-    return head if head.nil? || head.next.nil?
-
-    p1 = head
-    p2 = p1.next
-    p3 = p2.next
-
-    until p2.nil?
-      p2.next = p1
-      p1 = p2
-      p2 = p3
-      p3 = p3.next unless p3.nil?
+    node = head
+    arr = []
+    until node.nil?
+      arr.push node.val
+      node = node.next
     end
-    head.next = nil
-    p1
+
+    node = head
+    until arr.empty?
+      node.val = arr.pop
+      node = node.next
+    end
+    head
   end
 end
