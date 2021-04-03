@@ -40,6 +40,6 @@ describe Atoi do
   end
 
   it 'with space after a number' do
-    expect(subject.my_atoi("   +1 123")).to eq(1)
+    expect(subject.my_atoi('   +1 123')).to eq(1)
   end
 end
