@@ -7,11 +7,11 @@ class SumOfAllSubsetXorTotals
     combinations = []
     i = 1
     while i <= nums.length
-        xor = nums.combination(i).map do |a|
-            a.reduce(0) { |sum, n| n ^ sum }
-        end
-        combinations.push xor
-        i += 1
+      xor = nums.combination(i).map do |a|
+        a.reduce(0) { |sum, n| n ^ sum }
+      end
+      combinations.push xor
+      i += 1
     end
     combinations.flatten.sum
   end
