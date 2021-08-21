@@ -31,7 +31,7 @@ class AddTwoNumbers
       p2 = p2&.next
     end
 
-    p3 = ListNode.new(curry, p3) if curry > 0
+    p3 = ListNode.new(curry, p3) if curry.positive?
 
     # reverse sum list
     head = nil

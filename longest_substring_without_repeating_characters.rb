@@ -25,7 +25,7 @@ class LongestSubstringWithoutRepeatingCharacters
       strings.push substring
       i += 1
     end
-    longest_substring = strings.max_by { |n| n.length }
+    longest_substring = strings.max_by(&:length)
     longest_substring.length
   end
 end
