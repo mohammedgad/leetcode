@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../find_the_town_judge_with_adj_matrix'
 describe FindTheTownJudgeWithAdjMatrix do
   it 'return judge out of two people' do

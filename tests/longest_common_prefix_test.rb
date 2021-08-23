@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../longest_common_prefix'
 describe LongestCommonPrefix do
   it 'returns first 2 chars' do

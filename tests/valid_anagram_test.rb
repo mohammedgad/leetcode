@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../valid_anagram'
 describe ValidAnagram do
   it 'returns false if the two strings have different length' do

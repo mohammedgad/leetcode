@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../sum_of_all_subset_xor_totals'
 describe SumOfAllSubsetXorTotals do
   it 'returns sum of all subset xor totals for array of two' do

@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../reverse_string_ii'
 describe ReverseStringII do
   it 'with short string' do

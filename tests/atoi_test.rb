@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../atoi'
 describe Atoi do
   it 'converts a string to integer' do

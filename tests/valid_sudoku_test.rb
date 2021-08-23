@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../valid_sudoku'
 describe ValidSudoku do
   it 'check valid sudoku board' do

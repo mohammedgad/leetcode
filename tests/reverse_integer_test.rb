@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../reverse_integer'
 describe ReverseInteger do
   it 'reverse a positive number' do

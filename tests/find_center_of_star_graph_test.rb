@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../find_center_of_star_graph'
 describe FindCenterOfStarGraph do
   it 'has three edges' do

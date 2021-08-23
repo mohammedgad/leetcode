@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../richest_customer_wealth'
 describe RichestCustomerWealth do
   it 'returns wealth of richest customer for two customers in three banks' do

@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../split_a_string_in_balanced_strings'
 describe SplitAStringInBalancedStrings do
   it 'return four counts' do

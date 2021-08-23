@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../defanging_an_ip_address'
 describe DefangingAnIpAddress do
   it 'return defanged ip address' do

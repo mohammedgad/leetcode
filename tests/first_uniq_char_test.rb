@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../first_uniq_char'
 describe FirstUniqueCharacter do
   it 'return first unique char index' do

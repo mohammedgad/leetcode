@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../count_and_say'
 describe CountAndSay do
   it 'input 0' do

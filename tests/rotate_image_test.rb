@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../rotate_image'
 describe RotateImage do
   it 'rotate 3x3 image' do

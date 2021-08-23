@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../reverse_string'
 describe ReverseString do
   it 'reverse a string' do

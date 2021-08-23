@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../x_of_a_kind_in_a_deck_of_cards'
 describe XOfAKindInADeckOfCards do
   it 'is splittable' do

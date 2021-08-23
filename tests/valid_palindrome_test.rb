@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../valid_palindrome'
 describe ValidPalindrome do
   it 'returns valid palindrome' do

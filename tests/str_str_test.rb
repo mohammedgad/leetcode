@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../str_str'
 describe StrStr do
   it 'with empty needle' do

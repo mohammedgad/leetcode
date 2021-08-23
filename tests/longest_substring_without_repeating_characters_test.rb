@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec/autorun'
 require '../longest_substring_without_repeating_characters'
 describe LongestSubstringWithoutRepeatingCharacters do
   it 'with empty string' do
